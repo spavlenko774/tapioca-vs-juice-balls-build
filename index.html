@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/tapioca vs juice balls.loader.js"></script>
+    <script src="Build/tapioca-vs-juice-balls-build.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -26,9 +26,9 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/tapioca vs juice balls.data",
-        frameworkUrl: "Build/tapioca vs juice balls.framework.js",
-        codeUrl: "Build/tapioca vs juice balls.wasm",
+        dataUrl: "Build/tapioca-vs-juice-balls-build.data",
+        frameworkUrl: "Build/tapioca-vs-juice-balls-build.framework.js",
+        codeUrl: "Build/tapioca-vs-juice-balls-build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Tapioca vs Juice Balls",
